@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "dev:no-turbo": "next dev --no-turbo"
+    "lint": "eslint"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.0.0",
